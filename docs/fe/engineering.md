@@ -79,7 +79,7 @@ alert(word);
 // /client/page/index.tpl
 
 {% script %}
-var word = require('home:widget/word/word.js);
+var word = require('home:widget/word/word.js');
 alert(word);
 {% endscript %}
 ```
